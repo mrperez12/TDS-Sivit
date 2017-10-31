@@ -13,6 +13,7 @@ public class playerController : MonoBehaviour {
 	public float toggleAngle = 30.0f;
 
 	public bool moveForward;
+	public bool moveBackward;
 
 	// Use this for initialization
 	void Start () {
@@ -24,15 +25,25 @@ public class playerController : MonoBehaviour {
 	void Update () {
 
 		float translation = Input.GetAxis("Vertical");
-		if (translation != 0.0f) {
+		if (translation > 0.0f) {
 			moveForward = true;
-		} else {
+		}
+		else if (translation < 0.0f){
+			moveBackward = true;
+		}
+		else {
 			moveForward = false;
+			moveBackward = false;
 		}
 		if(moveForward){
 
 			Vector3 forward = vrCamera.TransformDirection (Vector3.forward);
 			cc.SimpleMove (forward * speed);
+		}
+		if (moveBackward) {
+			
+			Vector3 backward = vrCamera.TransformDirection (Vector3.forward);
+			cc.SimpleMove (backward * -1 * speed);
 		}
 	}
 }
