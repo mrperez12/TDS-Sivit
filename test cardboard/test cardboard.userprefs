@@ -1,12 +1,8 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\playerController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\UIManager.cs">
     <Files>
-      <File FileName="Assets\Scripts\playerController.cs" Line="36" Column="25" />
-      <File FileName="Assets\Scripts\characterController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\vrButton.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\DropdownButton.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\ButtonMenu.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\UIManager.cs" Line="60" Column="41" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

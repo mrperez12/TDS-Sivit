@@ -46,7 +46,7 @@ public class UIManager : MonoBehaviour {
         if (state)
         {
 			if (counter == false) {
-				pausePanel.transform.position = camVR.transform.position + camVR.transform.forward * 1.0f;
+				pausePanel.transform.position = camVR.transform.position + camVR.transform.forward * 1.5f;
 				pausePanel.transform.rotation = Quaternion.LookRotation (pausePanel.transform.position - camVR.transform.position);
 				counter = true;
 			}

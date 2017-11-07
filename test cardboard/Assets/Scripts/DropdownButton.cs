@@ -74,8 +74,7 @@ public class DropdownButton : MonoBehaviour {
 
 		if(displayed){
 
-			dropdown.Select ();
-			displayed = false;
+
 		}
 		else{
 			
