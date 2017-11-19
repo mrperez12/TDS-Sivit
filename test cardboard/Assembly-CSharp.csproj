@@ -170,6 +170,7 @@
      <Compile Include="Assets\Scripts\ToggleVrButton.cs" />
      <Compile Include="Assets\Scripts\UIManager.cs" />
      <Compile Include="Assets\Scripts\Unpaused.cs" />
+     <Compile Include="Assets\Scripts\Values.cs" />
      <Compile Include="Assets\Scripts\camMouseLook.cs" />
      <Compile Include="Assets\Scripts\characterController.cs" />
      <Compile Include="Assets\Scripts\playerController.cs" />

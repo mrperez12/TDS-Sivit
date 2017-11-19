@@ -34,8 +34,8 @@ public class shake : MonoBehaviour {
 		randomangle = Random.Range (0f, 2f) * Mathf.PI; //se define al azar por ahora
 		perpangle = randomangle + 90f;
 		//duration = Random.Range (10f, 60f);
-		//amount = Mathf.Pow (2,PlayerPrefs.GetFloat("grado")-6.5f);//Random.Range (1f, 2.1f);
-		amount = Mathf.Pow (2,gradorichter-6.5f);
+		amount = Mathf.Pow (2,PlayerPrefs.GetFloat("grado")-6.5f);//Random.Range (1f, 2.1f);
+		//amount = Mathf.Pow (2,gradorichter-6.5f);
 		Debug.Log ("ESTE GRADO M3N " + amount);
 		//epidelay = 24;//Random.Range (0f, 30f);
 		epidist = epidelay * 2000;// 4500 * x - 2500 * x, distancia al epicentro en metros
