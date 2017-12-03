@@ -15,9 +15,10 @@ public class playerController : MonoBehaviour {
 	public bool moveForward;
 	public bool moveBackward;
 
+
 	// Use this for initialization
 	void Start () {
-		
+		vrCamera.transform.position += new Vector3 (0, 1.5f, 0);
 		cc = GetComponent<CharacterController> ();
 	}
 	
